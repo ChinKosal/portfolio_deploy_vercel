@@ -185,8 +185,9 @@ const Skills = () => {
           <div className="mt-16 text-center">
             <p className="text-gray-400 max-w-2xl mx-auto hover:text-gray-300 transition-colors duration-300">
               Always learning and exploring new technologies to stay at the
-              forefront of web development. Currently exploring Web3
-              technologies and AI integration in web applications.
+              forefront of web and app development. Currently exploring flutter
+              for mobile app development, enhancing my skills in backend
+              development with Spring Hibernate.
             </p>
           </div>
         </div>
