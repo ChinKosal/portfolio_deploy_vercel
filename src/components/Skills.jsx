@@ -109,22 +109,22 @@ const Skills = () => {
   const skills = [
     {
       name: "Frontend Development",
-      level: 90,
+      level: 85,
       tags: ["React", "Next.js", "JavaScript", "Tailwind CSS"],
     },
     {
       name: "Backend Development",
-      level: 85,
+      level: 68,
       tags: ["Spring Boot", "Spring Hibernate", "PostgreSQL", "REST APIs"],
     },
     {
       name: "UI/UX Design",
-      level: 80,
+      level: 85,
       tags: ["Figma", "Responsive Design", "Prototyping"],
     },
     {
       name: "Tools",
-      level: 75,
+      level: 90,
       tags: ["Git", "Postman"],
     },
   ];
