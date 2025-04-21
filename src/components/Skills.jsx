@@ -131,11 +131,11 @@ const Skills = () => {
 
   const technologies = [
     { name: "React", icon: "⚛️" },
-    { name: "Node.js", icon: "🟢" },
-    { name: "TypeScript", icon: "📘" },
-    { name: "MongoDB", icon: "🍃" },
-    { name: "AWS", icon: "☁️" },
-    { name: "Docker", icon: "🐳" },
+    { name: "Next.js", icon: "🚀" },
+    { name: "JavaScript", icon: "🟨" },
+    { name: "Spring Boot", icon: "🌱" },
+    { name: "Flutter", icon: "📱" },
+    { name: "Jetpack Compose", icon: "🎨" },
   ];
 
   return (
