@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
-import profileImage from '../assets/thorn_profile.jpg';
-import Typewriter from 'typewriter-effect';
-import Terminal from './Terminal';
+import profileImage from "../assets/kosal_profile.jpg";
+import Typewriter from "typewriter-effect";
+import Terminal from "./Terminal";
 
 const Hero = () => {
   return (
@@ -46,7 +46,7 @@ const Hero = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left Column - Profile */}
             <div className="text-center lg:text-left">
-              <motion.div 
+              <motion.div
                 className="relative inline-block mb-8 group"
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }}
@@ -83,10 +83,10 @@ const Hero = () => {
                   <Typewriter
                     options={{
                       strings: [
-                        'Full Stack Developer',
-                        'UI/UX Enthusiast',
-                        'Problem Solver',
-                        'Tech Innovator'
+                        "Full Stack Developer",
+                        "UI/UX Enthusiast",
+                        "Problem Solver",
+                        "Tech Innovator",
                       ],
                       autoStart: true,
                       loop: true,
@@ -109,7 +109,9 @@ const Hero = () => {
                   whileTap={{ scale: 0.95 }}
                 >
                   <div className="absolute inset-0 bg-white/20 translate-y-[102%] group-hover:translate-y-0 transition-transform duration-300" />
-                  <span className="relative text-white font-medium">Get in Touch</span>
+                  <span className="relative text-white font-medium">
+                    Get in Touch
+                  </span>
                 </motion.a>
                 <motion.a
                   href="#projects"
@@ -129,16 +131,16 @@ const Hero = () => {
       </div>
 
       {/* Enhanced Scroll Indicator */}
-      <motion.div 
+      <motion.div
         className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
-        animate={{ 
+        animate={{
           y: [0, 10, 0],
-          opacity: [0.5, 1, 0.5]
+          opacity: [0.5, 1, 0.5],
         }}
-        transition={{ 
+        transition={{
           duration: 2,
           repeat: Infinity,
-          ease: "easeInOut"
+          ease: "easeInOut",
         }}
       >
         <svg
