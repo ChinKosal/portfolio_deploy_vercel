@@ -110,22 +110,22 @@ const Skills = () => {
     {
       name: "Frontend Development",
       level: 90,
-      tags: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Redux"],
+      tags: ["React", "Next.js", "JavaScript", "Tailwind CSS"],
     },
     {
       name: "Backend Development",
       level: 85,
-      tags: ["Node.js", "Express", "MongoDB", "PostgreSQL", "REST APIs"],
+      tags: ["Spring Boot", "Spring Hibernate", "PostgreSQL", "REST APIs"],
     },
     {
       name: "UI/UX Design",
       level: 80,
-      tags: ["Figma", "Adobe XD", "Responsive Design", "Prototyping"],
+      tags: ["Figma", "Responsive Design", "Prototyping"],
     },
     {
-      name: "DevOps & Tools",
+      name: "Tools",
       level: 75,
-      tags: ["Git", "Docker", "AWS", "CI/CD", "Linux"],
+      tags: ["Git", "Postman"],
     },
   ];
 

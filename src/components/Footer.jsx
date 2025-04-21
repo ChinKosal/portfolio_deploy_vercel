@@ -44,7 +44,7 @@ const Footer = () => {
                 by
               </span>
               <motion.a
-                href="https://github.com/chornthorn"
+                href="https://github.com/ChinKosal"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-400 hover:text-blue-300 transition-colors duration-300 relative group"
@@ -59,7 +59,7 @@ const Footer = () => {
 
             {/* GitHub Link */}
             <motion.a
-              href="https://github.com/chornthorn/portfolio-template"
+              href="https://github.com/ChinKosal/portfolio_deploy_vercel"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-gray-300 hover:text-white transition-colors duration-300 group order-2 sm:order-none"

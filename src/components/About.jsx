@@ -102,13 +102,13 @@ const About = () => {
                   My Journey
                 </h3>
                 <p className="text-gray-300 leading-relaxed">
-                  As a software developer, I graduated from the Korean Software
-                  HRD Center from generation 12, and I am currently studying for
-                  a bachelor's degree at the Royal University of Phnom Penh. I
-                  have experience in building websites and mobile apps. With a
-                  strong foundation in full-stack development and a keen eye for
-                  design, I create solutions that are not only functional but
-                  also intuitive and user-friendly.
+                  As a junior software developer, I graduated from the Korean
+                  Software HRD Center from generation 12, and I am currently
+                  studying for a bachelor's degree at the Royal University of
+                  Phnom Penh. I have experience in building websites and mobile
+                  apps. With a strong foundation in full-stack development and a
+                  keen eye for design, I create solutions that are not only
+                  functional but also intuitive and user-friendly.
                 </p>
               </motion.div>
             </div>

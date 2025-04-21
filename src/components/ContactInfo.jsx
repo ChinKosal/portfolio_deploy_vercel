@@ -26,8 +26,8 @@ const ContactInfo = () => {
               </svg>
             }
             title="Email"
-            value="contact@example.com"
-            link="mailto:contact@example.com"
+            value="nangapple82@gmail.com"
+            link="mailto:nangapple82@gmail.com"
           />
           <ContactCard
             icon={
@@ -46,8 +46,8 @@ const ContactInfo = () => {
               </svg>
             }
             title="Phone"
-            value="+855 12 345 678"
-            link="tel:+85512345678"
+            value="+855 88 768 3082"
+            link="tel:+855 88 768 3082"
           />
           <ContactCard
             icon={
@@ -86,25 +86,6 @@ const ContactInfo = () => {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="2"
-                  d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-                />
-              </svg>
-            }
-            title="Working Hours"
-            value="Mon - Fri, 9:00 - 17:00 ICT"
-          />
-          <ContactCard
-            icon={
-              <svg
-                className="w-6 h-6"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
                   d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"
                 />
               </svg>
@@ -119,7 +100,7 @@ const ContactInfo = () => {
           <h4 className="text-white mb-4">Follow Me</h4>
           <div className="flex space-x-4">
             <SocialLink
-              href="https://github.com/your-github"
+              href="https://github.com/ChinKosal"
               icon={
                 <svg
                   className="w-5 h-5"
@@ -135,7 +116,7 @@ const ContactInfo = () => {
               }
             />
             <SocialLink
-              href="https://linkedin.com/in/your-linkedin"
+              href="https://www.linkedin.com/in/kosal-chin-a27a37266/"
               icon={
                 <svg
                   className="w-5 h-5"
@@ -143,18 +124,6 @@ const ContactInfo = () => {
                   viewBox="0 0 24 24"
                 >
                   <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
-                </svg>
-              }
-            />
-            <SocialLink
-              href="https://twitter.com/your-twitter"
-              icon={
-                <svg
-                  className="w-5 h-5"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
                 </svg>
               }
             />
