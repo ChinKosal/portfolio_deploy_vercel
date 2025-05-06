@@ -21,12 +21,14 @@ A modern, responsive portfolio template built with React and Vite.
 ### Installation
 
 1. Clone the repository
+
 ```bash
-git clone https://github.com/chornthorn/portfolio-template.git
+git clone https://github.com/ChinKosal/portfolio_deploy_vercel.git
 cd portfolio-template
 ```
 
 2. Install dependencies
+
 ```bash
 npm install
 # or
@@ -34,6 +36,7 @@ yarn install
 ```
 
 3. Start the development server
+
 ```bash
 npm run dev
 # or
@@ -60,11 +63,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Author
 
-Thorn Chorn
-
-## Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check [issues page](https://github.com/your-username/portfolio-template/issues).
+Chin Kosal
 
 ## Show your support
 
@@ -72,6 +71,4 @@ Give a ⭐️ if this project helped you!
 
 ---
 
-Made with ❤️ by Thorn Chorn
-
-
+Made with ❤️ by Chin Kosal
