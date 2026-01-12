@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import CustomCursor from "./components/CustomCursor";
 import AnimatedLines from "./components/AnimatedLines";
 import HeroV3 from "./components/HeroV3.jsx";
+import YouTubeMusic from "./components/YouTubeMusic.jsx";
 
 function App() {
   // Smooth scroll behavior
@@ -30,17 +31,7 @@ function App() {
   return (
     <div className="text-white">
       {/* YouTube background music */}
-      <div>
-        <iframe
-          width="0"
-          height="0"
-          src="https://www.youtube.com/embed/NvIXu1pXNZM?autoplay=1&loop=1&playlist=NvIXu1pXNZM&mute=1&enablejsapi=1"
-          title="YouTube background music"
-          frameBorder="0"
-          allow="autoplay; encrypted-media"
-          allowFullScreen
-        ></iframe>
-      </div>
+      <YouTubeMusic />
       {/* <CustomCursor /> */}
       <Header />
       <HeroV3 />
