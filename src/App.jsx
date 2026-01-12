@@ -29,6 +29,18 @@ function App() {
 
   return (
     <div className="text-white">
+      {/* YouTube background music */}
+      <div>
+        <iframe
+          width="0"
+          height="0"
+          src="https://www.youtube.com/embed/NvIXu1pXNZM?autoplay=1&loop=1&playlist=NvIXu1pXNZM&mute=1&enablejsapi=1"
+          title="YouTube background music"
+          frameBorder="0"
+          allow="autoplay; encrypted-media"
+          allowFullScreen
+        ></iframe>
+      </div>
       {/* <CustomCursor /> */}
       <Header />
       <HeroV3 />
