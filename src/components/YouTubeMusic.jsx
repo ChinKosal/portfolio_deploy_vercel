@@ -5,9 +5,11 @@ export default function YouTubeMusic() {
   const iframeRef = useRef(null);
 
   useEffect(() => {
+    let iframeLoaded = false;
+
     const enableSound = () => {
       const iframe = iframeRef.current;
-      if (!iframe?.contentWindow) return;
+      if (!iframe?.contentWindow || !iframeLoaded) return;
 
       iframe.contentWindow.postMessage(
         JSON.stringify({ event: "command", func: "unMute", args: [] }),
@@ -18,6 +20,7 @@ export default function YouTubeMusic() {
         "*"
       );
 
+      // Remove listeners after first interaction
       window.removeEventListener("scroll", enableSound);
       window.removeEventListener("click", enableSound);
       window.removeEventListener("touchstart", enableSound);
@@ -25,9 +28,10 @@ export default function YouTubeMusic() {
 
     const handleVisibilityChange = () => {
       const iframe = iframeRef.current;
-      if (!iframe?.contentWindow) return;
+      if (!iframe?.contentWindow || !iframeLoaded) return;
 
       if (document.visibilityState === "visible") {
+        // Restart from beginning
         iframe.contentWindow.postMessage(
           JSON.stringify({ event: "command", func: "seekTo", args: [0, true] }),
           "*"
@@ -43,16 +47,29 @@ export default function YouTubeMusic() {
       }
     };
 
-    window.addEventListener("scroll", enableSound, { once: true });
+    // Listen for scroll on window
+    window.addEventListener("scroll", enableSound, {
+      once: true,
+      passive: true,
+    });
     window.addEventListener("click", enableSound, { once: true });
     window.addEventListener("touchstart", enableSound, { once: true });
+
     document.addEventListener("visibilitychange", handleVisibilityChange);
+
+    // Wait for iframe to load
+    const iframe = iframeRef.current;
+    const onLoad = () => {
+      iframeLoaded = true;
+    };
+    iframe?.addEventListener("load", onLoad);
 
     return () => {
       window.removeEventListener("scroll", enableSound);
       window.removeEventListener("click", enableSound);
       window.removeEventListener("touchstart", enableSound);
       document.removeEventListener("visibilitychange", handleVisibilityChange);
+      iframe?.removeEventListener("load", onLoad);
     };
   }, []);
 
